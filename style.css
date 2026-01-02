@@ -129,6 +129,17 @@ h1 {
     margin: 10px;
     border-radius: 5px;
 }
+@media (max-width: 1000px) {
+    .text {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .container {
+        height: 600px;
+    }        
+}
+
 
 
 
