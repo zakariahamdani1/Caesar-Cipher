@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container {
+    background-color: antiquewhite;
+    width: 40%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px;
+    border: 2px solid #000;
+}
+
+.Select {
+    margin: 10px;
+    width:60%;
+}
+
+.Select label {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(20, 20, 20);
+    margin: 10px;
+}
+.Select select {
+    width: 50%;
+    font-size: 18px;
+    border: 3px solid #000;
+    background-color: antiquewhite;
+}
+
+
+.key {
+    width:60%;
+    margin: 10px;
+}
+
+.key label {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(20, 20, 20);
+    margin: 10px;
+}
+
+.key input {
+    width: 50%;
+    font-size: 18px;
+    border: 3px solid #000;
+    background-color: antiquewhite;
+}
+
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+    border: 3px solid #000;
+}
+
+.divP {
+    display: flex;
+    flex-direction: column;
+}
+
+.divP label {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(20, 20, 20);
+    margin: 10px;
+}
+
+.divP textarea {
+    width: auto;
+    height: 150px;
+    border: 3px solid #000;
+    background-color: antiquewhite;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    resize: none;
+}
+
+.divC {
+    display: flex;
+    flex-direction: column;
+}
+
+.divC label {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(20, 20, 20);
+    margin: 10px;
+}
+
+.divC textarea {
+    width: auto;
+    height: 150px;
+    border: 3px solid #000;
+    background-color: antiquewhite;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    resize: none;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    margin: 10px auto;
+}
+
+.buttons button {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid #000;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+
